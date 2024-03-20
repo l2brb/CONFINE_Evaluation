@@ -1,7 +1,9 @@
 # CONFINE Evaluation
  
 ## Evaluation
-The following section contains the experimental toolbench used to evaluate the effectiveness of CONFINE, presented in the paper Section 6. Evaluation files can be found in [/evaluation/](https://github.com/Process-in-Chains/CONFINE/tree/main/evaluation). We conduct convergence analysis to demonstrate the correctness of the collaborative data exchange process. Moreover, we gauge the memory usage with synthetic and real-life event logs, to observe the trend during the enactment of our protocol and assess scalability. 
+The following section contains the experimental toolbench used to evaluate the effectiveness of CONFINE approach, presented in the paper "Trusted Execution Environment for Process Mining (pre-print: 
+https://doi.org/10.48550/arXiv.2312.12105). For other tests and tools mentioned in the paper, please visit https://github.com/Process-in-Chains/CONFINE. 
+We conduct convergence analysis to demonstrate the correctness of the collaborative data exchange process. Moreover, we gauge the memory usage with synthetic and real-life event logs, to observe the trend during the enactment of our protocol and assess scalability. 
 
 ##### Requirements
 To run our Python scripts, the following libraries are required: `os`, `pandas`, `numpy`, `matplotlib`, `scipy`, `sklearn`, `datetime`.
